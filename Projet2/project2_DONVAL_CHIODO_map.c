@@ -148,7 +148,7 @@ void writeStepFile(struct Map map, unsigned int step, double start_j, double end
 
     // ETA
     sprintf(file, "./results/eta_%u.dat", step);
-    fp = fopen(file, "wb");
+    fp = fopen(file, "ab");
     
     if(fp == NULL) {
         printf("erreur open %s\n", file);
@@ -173,7 +173,7 @@ void writeStepFile(struct Map map, unsigned int step, double start_j, double end
 
     // U
     sprintf(file, "./results/u_%u.dat", step);
-    fp = fopen(file, "wb");
+    fp = fopen(file, "ab");
     if(fp == NULL) {
         printf("erreur open %s\n", file);
         return;
@@ -195,7 +195,7 @@ void writeStepFile(struct Map map, unsigned int step, double start_j, double end
     
     // V
     sprintf(file, "./results/v_%u.dat", step);
-    fp = fopen(file, "wb");
+    fp = fopen(file, "ab");
 
     if(fp == NULL) {
         printf("erreur open %s\n", file);
