@@ -160,7 +160,7 @@ void writeStepFile(struct Map map, unsigned int step, double start_j, double end
         //fprintf(fp, "%u ", (unsigned int)map.size_u_j);
         fwrite(&sizevi, sizeof(unsigned int), 1, fp);
 	    fwrite(&sizevj, sizeof(unsigned int), 1, fp);
-	    printf("%x,%x pass\n",&sizevi,&sizevj);
+	    printf("%u,%u pass\n",&sizevi,&sizevj);
     }
     for(j = convert(start_j); j < convert(end_j); j++) {
         // for(i = 0; i < map.size_v_i; i++) {
