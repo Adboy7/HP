@@ -20,6 +20,6 @@ runSriLanka:
 	./projet2 param.txt hw2/sriLanka.dat 0
 
 runReflection:
-	mpirun -np 1 ./projet2 param.txt hw2/reflection.dat 0
+	mpirun -np 4 ./projet2 param.txt hw2/reflection.dat 0
 clean:
 	rm *.o projet2
