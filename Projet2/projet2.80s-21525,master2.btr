@@ -1,0 +1,6 @@
+
+projet2:21525 terminated with signal 11 at PC=402adc SP=7fffffffd300.  Backtrace:
+./projet2(explicit_calcul_eta+0xcc)[0x402adc]
+./projet2(main+0x54f)[0x401990]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x3c91c1ed5d]
+./projet2[0x4010f9]

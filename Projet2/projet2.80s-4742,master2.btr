@@ -1,0 +1,9 @@
+
+projet2:4742 terminated with signal 11 at PC=3c91c746a0 SP=7fffffffd210.  Backtrace:
+/lib64/libc.so.6(_IO_default_xsputn+0x130)[0x3c91c746a0]
+/lib64/libc.so.6(_IO_file_xsputn+0xb2)[0x3c91c71792]
+/lib64/libc.so.6(fwrite+0x10d)[0x3c91c67a4d]
+./projet2(writeStepFile+0xb5)[0x402708]
+./projet2(main+0x767)[0x401ba8]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x3c91c1ed5d]
+./projet2[0x4010f9]

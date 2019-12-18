@@ -1,0 +1,7 @@
+
+projet2:22529 terminated with signal 11 at PC=2aaaaad0c004 SP=7fffffffd300.  Backtrace:
+/cm/shared/apps/openmpi/qlc/gcc/64/1.6.4/lib/libmpi.so.1(opal_memory_ptmalloc2_free+0x24)[0x2aaaaad0c004]
+./projet2(destroyMap+0x2a)[0x4024b8]
+./projet2(main+0xb78)[0x401fb9]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x3c91c1ed5d]
+./projet2[0x4010f9]

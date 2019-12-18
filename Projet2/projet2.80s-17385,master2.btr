@@ -1,0 +1,6 @@
+
+projet2:17385 terminated with signal 11 at PC=402ba4 SP=7fffffffd300.  Backtrace:
+./projet2(explicit_calcul_eta+0xcc)[0x402ba4]
+./projet2(main+0x515)[0x401956]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x3c91c1ed5d]
+./projet2[0x4010f9]

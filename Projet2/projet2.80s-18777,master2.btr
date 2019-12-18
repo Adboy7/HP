@@ -1,0 +1,6 @@
+
+projet2:18777 terminated with signal 11 at PC=402b78 SP=7fffffffd300.  Backtrace:
+./projet2(explicit_calcul_eta+0xcc)[0x402b78]
+./projet2(main+0x523)[0x401964]
+/lib64/libc.so.6(__libc_start_main+0xfd)[0x3c91c1ed5d]
+./projet2[0x4010f9]
